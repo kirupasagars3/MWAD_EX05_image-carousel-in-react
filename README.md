@@ -1,4 +1,3 @@
-# MWAD_EX05_image-carousel-in-react
 ## Date:
 
 ## AIM
@@ -39,9 +38,33 @@ Use setInterval to call the nextImage() function at regular intervals.
 Clean up the interval when the component unmounts using clearInterval to prevent memory leaks.
 
 ## PROGRAM
+App.jsx
+```
+import React from 'react';
+import FoodDisplay from './components/FoodDisplay';
 
+function App() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-orange-100 flex items-center justify-center py-12">
+      <FoodDisplay />
+    </div>
+  );
+}
+
+export default App;
+```
+App.css
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;+
+```
 
 ## OUTPUT
+<img width="2558" height="1599" alt="444786604-0c1c7ed8-f436-47c3-8cd5-b2e2882fc81a" src="https://github.com/user-attachments/assets/9d846632-e1b2-416e-ac9b-d6536eba805d" />
+<img width="2559" height="1599" alt="444786620-411570d3-aeb4-49ab-bdd7-399233b516da" src="https://github.com/user-attachments/assets/dfdf8c07-e81d-4c86-81bc-dea3e2648cf5" />
+<img width="2559" height="1599" alt="444786630-65ac8942-b6e0-4155-acda-1745010210a0" src="https://github.com/user-attachments/assets/340bbf5e-c54c-4b0f-868c-1dea811be26c" />
+
 
 
 ## RESULT
